@@ -1,0 +1,687 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  background-color: #f7f6f4;
+}
+
+.header {
+  display: flex;
+  background-color: #f7f6f4;
+}
+
+.navbar {
+  padding-left: 350px;
+  padding-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+}
+
+.navbar a {
+  padding: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.cartnsearch {
+  padding-left: 250px;
+  padding-top: 30px;
+}
+
+#input1 {
+  width: 150px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.header-intro {
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.introtext {
+  padding-right: 80px;
+  padding-top: 80px;
+}
+
+.shop {
+  border-radius: 4px;
+  background-color: brown;
+  color: white;
+  padding: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.drinks-section1 {
+  display: flex;
+  padding: 20px;
+  gap: 25px;
+  justify-content: center;
+}
+
+.soda5 {
+  background-color: white;
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+}
+
+.soda5 h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+.soda5 span {
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.soda5 button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soda9 {
+  background-color: white;
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+}
+.soda9 h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+.soda9 span {
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.soda9 button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-row3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soda6 {
+  background-color: white;
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+}
+
+.soda6 h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+.soda6 span {
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.soda6 button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soda2 {
+  background-color: white;
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+}
+
+.soda2 h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+.soda2 span {
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.soda2 button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-row4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filt {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+  width: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.little-info {
+  display: flex;
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+}
+.sp {
+  padding-left: 800px;
+}
+
+.fd {
+  padding-left: 80px;
+}
+
+.drinks-section2 {
+  display: flex;
+  padding: 20px;
+  gap: 25px;
+  justify-content: center;
+}
+
+.soda1 {
+  background-color: white;
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+}
+
+.soda1 h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+.soda1 span {
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.soda1 button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-row5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soda4 {
+  background-color: white;
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+}
+.soda4 h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+.soda4 span {
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.soda4 button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-row6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soda7 {
+  background-color: white;
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+}
+
+.soda7 h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+.soda7 span {
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.soda7 button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-row7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soda8 {
+  background-color: white;
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+}
+
+.soda8 h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+.soda8 span {
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.soda8 button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-row8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filt {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+  width: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+@media (max-width: 992px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .navbar {
+    padding-left: 0;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .cartnsearch {
+    padding-left: 0;
+    padding-top: 15px;
+  }
+
+  .drinks-section1,
+  .drinks-section2 {
+    flex-wrap: wrap;
+  }
+
+  .soda1,
+  .soda2,
+  .soda4,
+  .soda5,
+  .soda6,
+  .soda7,
+  .soda8,
+  .soda9 {
+    width: 45%;
+  }
+
+  .little-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sp,
+  .fd {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-intro {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .introtext {
+    padding: 20px 0;
+  }
+
+  .drinks-section1,
+  .drinks-section2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .soda1,
+  .soda2,
+  .soda4,
+  .soda5,
+  .soda6,
+  .soda7,
+  .soda8,
+  .soda9 {
+    width: 90%;
+  }
+}
+
+.about {
+  text-align: center;
+  background-color: #ece7e3;
+  border-radius: 20px;
+  width: 800px;
+  height: 80px;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.copyrights {
+  display: flex;
+}
+
+.reserved {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.terms {
+  padding-left: 800px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.terms a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.header2 {
+  background-color: #f7f6f4;
+}
+
+.impressions {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.founded {
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.served {
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.local {
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.rating {
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.blog {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.story {
+  background-color: white;
+  padding: 40px;
+  width: 900px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.owner {
+  background-color: white;
+  padding: 30px;
+  width: 700px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.founder img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.lit {
+  display: flex;
+  padding: 10px;
+}
+
+.motivational-quote {
+  display: flex;
+  padding: 20px;
+  gap: 54px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.source {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.less {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.design {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.member1 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.member2 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.member3 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.member4 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member1 {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.member2 {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.member3 {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.member4 {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.about-end {
+  background-color: #ece7e3;
+  display: flex;
+  padding: 10px;
+  width: 1200px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.shop2 {
+  padding-left: 400px;
+  padding-top: 15px;
+}
+
+.shop2 button{
+  border-radius: 4px;
+  background-color: brown;
+  color: white;
+  padding: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+
